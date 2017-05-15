@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset='utf-8'>
+	<meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=0">
+	 <script>
+		var offWidth = window.screen.width / 30;
+      	document.getElementsByTagName("html")[0].style.fontSize = offWidth + 'px'; //
+    </script>
+	<style type="text/css">
+	body,html,div,p{
+		margin:0;
+		padding:0;
+	}
+	body{
+		width:100%;
+	}
+	div{
+		width:100vw;
+		height:100vh;
+		background-color: #fff;
+		box-sizing:border-box;
+	}
+	.fn-good{
+		font-size:3rem;
+		text-align: center;
+		font-weight:bold;
+		color:#fff;
+	}
+	.main01{
+		background:url('2.jpg') no-repeat fixed 0 0;
+		background-size:cover;
+	}
+	.main02{
+		background:url('1.jpg') no-repeat fixed 0 0;
+		background-size:cover;
+	}
+	.main03{
+		background:url('3.jpg') no-repeat fixed 0 0;
+		background-size:cover;
+	}
+	.main04{
+		background:url('4.jpg') no-repeat fixed 0 0;
+		background-size:cover;
+	}
+	.text-name{
+		padding:2rem;
+		font-size:3rem;
+	}
+	.text-content{
+		padding:0.5rem;
+	}
+	.main{
+		font-size:3rem;
+		text-align: center;
+		font-weight:bold;
+		color:#000;
+		height:7rem;
+		position: relative;
+	}
+		.round{
+            position: absolute;
+            height:2.5rem;
+            width:2.5rem;
+            border-radius: 50%;
+            background-color: #ff4256;
+        }
+        /*.round::before{
+            content:' ';
+            display: inline-block;
+            position: absolute;
+            height:3px;
+            width:25px;
+            border-radius:50%;
+            background-color: #000000;
+            bottom:-6px;
+            left:0;
+        }*/
+        .div01{
+            left:0;top:0;
+        }
+        .div02{
+            left:2.5rem;top:0
+        }
+        .div03{
+            left:5rem;top:0;
+        }
+        .div04{
+            left:7.5rem;top:0;
+        }
+        .round-all{
+        	position: absolute;
+        	top:1.8rem;
+        	left:11rem;
+        	width:0;
+        }
+	</style>
+	<script type="text/javascript" src="./jquery-1.11.2.js"></script>
+</head>
+<body>
+	<audio src='trans.mp3' autoplay loop></audio>
+	<div class='main01 fn-good'>
+		<p class='text-name'>诗名<p/>
+		<p class='text-content'>巴拉巴拉巴拉巴拉</p>
+		<p class='text-content'>巴拉巴拉巴拉巴拉</p>
+		<p class='text-content'>巴拉巴拉巴拉巴拉</p>
+		<p class='text-content'>巴拉巴拉巴拉巴拉</p>
+		<p class='text-content'>巴拉巴拉巴拉巴拉</p>
+		<p class='text-content'>巴拉巴拉巴拉巴拉</p>
+		<p class='text-content'>巴拉巴拉巴拉巴拉</p>
+		<p class='text-content'>巴拉巴拉巴拉巴拉</p>
+	</div>
+	<div class="main"> 
+		<div class='round-all'>
+			<div class="round div01"></div>
+	        <div class="round div02"></div>
+	        <div class="round div03"></div>
+	        <div class="round div04"></div>
+		</div>
+	</div>
+	<div class='main02 fn-good'>
+		<p class='text-name'>诗名<p/>
+		<p class='text-content'>巴拉巴拉巴拉巴拉</p>
+		<p class='text-content'>巴拉巴拉巴拉巴拉</p>
+		<p class='text-content'>巴拉巴拉巴拉巴拉</p>
+		<p class='text-content'>巴拉巴拉巴拉巴拉</p>
+		<p class='text-content'>巴拉巴拉巴拉巴拉</p>
+		<p class='text-content'>巴拉巴拉巴拉巴拉</p>
+		<p class='text-content'>巴拉巴拉巴拉巴拉</p>
+		<p class='text-content'>巴拉巴拉巴拉巴拉</p>
+	</div>
+	<div class='main fn-good'>
+		<div class='round-all'>
+			<div class="round div01"></div>
+	        <div class="round div02"></div>
+	        <div class="round div03"></div>
+	        <div class="round div04"></div>
+		</div>
+	</div>
+	<div class='main03 fn-good'>
+		<p class='text-name'>诗名<p/>
+		<p class='text-content'>巴拉巴拉巴拉巴拉</p>
+		<p class='text-content'>巴拉巴拉巴拉巴拉</p>
+		<p class='text-content'>巴拉巴拉巴拉巴拉</p>
+		<p class='text-content'>巴拉巴拉巴拉巴拉</p>
+		<p class='text-content'>巴拉巴拉巴拉巴拉</p>
+		<p class='text-content'>巴拉巴拉巴拉巴拉</p>
+		<p class='text-content'>巴拉巴拉巴拉巴拉</p>
+		<p class='text-content'>巴拉巴拉巴拉巴拉</p>
+	</div>
+	<div class='main'>
+		<div class='round-all'>
+			<div class="round div01"></div>
+	        <div class="round div02"></div>
+	        <div class="round div03"></div>
+	        <div class="round div04"></div>
+		</div>
+	</div>
+	<div class='main04 fn-good'>
+		<p class='text-name'>诗名<p/>
+		<p class='text-content'>巴拉巴拉巴拉巴拉</p>
+		<p class='text-content'>巴拉巴拉巴拉巴拉</p>
+		<p class='text-content'>巴拉巴拉巴拉巴拉</p>
+		<p class='text-content'>巴拉巴拉巴拉巴拉</p>
+		<p class='text-content'>巴拉巴拉巴拉巴拉</p>
+		<p class='text-content'>巴拉巴拉巴拉巴拉</p>
+		<p class='text-content'>巴拉巴拉巴拉巴拉</p>
+		<p class='text-content'>巴拉巴拉巴拉巴拉</p>
+	</div>
+
+<script>
+    var roundAll = $('.round-all');
+    roundAll.each(function(){
+    	var rounds = $(this).find('.round');
+    	var x = 1;
+	    setInterval(function(){
+	        x ? (rounds.eq(0).animate({left : '-2.5rem'},500).animate({left : '0'},500) , x = 0):
+	                (rounds.eq(rounds.length-1).animate({left : (rounds.length-1)*2.5+2.5+'rem'},500)
+	                        .animate({left : rounds.eq(rounds.length-1).position().left +'px'},500) , x = 1);
+	    },1000);
+    })
+
+</script>
+</body>
+</html>
