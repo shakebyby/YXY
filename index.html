@@ -18,7 +18,6 @@
 	}
 	div{
 		width:100vw;
-		height:100vh;
 		background-color: #fff;
 		box-sizing:border-box;
 	}
@@ -32,6 +31,7 @@
 		background:url('2.jpg') no-repeat fixed 0 0;
 		background-size:cover;
 	}
+
 	.main02{
 		background:url('1.jpg') no-repeat fixed 0 0;
 		background-size:cover;
@@ -95,11 +95,18 @@
         	left:11rem;
         	width:0;
         }
+        audio{
+        	width:100%;
+        	margin:0;
+        	padding:0;
+        	position: fixed;
+        	bottom:0;
+        }
 	</style>
 	<script type="text/javascript" src="./jquery-1.11.2.js"></script>
 </head>
 <body>
-	<audio src='trans.mp3' autoplay loop></audio>
+	<audio src='trans.mp3' autoplay loop controls></audio>
 	<div class='main01 fn-good'>
 		<p class='text-name'>诗名<p/>
 		<p class='text-content'>巴拉巴拉巴拉巴拉</p>
