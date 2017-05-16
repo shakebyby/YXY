@@ -36,7 +36,7 @@
 	}
 	.main01 {
 	  position: fixed;
-	  z-index: -2;
+	  z-index: -1;
 	  top: 0;
 	  right: 0;
 	  bottom: 0;
@@ -285,7 +285,7 @@
     		){
     		$('.ff').css({'z-index':-2});
     		$('.main03').css({'z-index':-1});
-    	}else {
+    	}else if(scrollTop >= (mainsOffset[1].top-$('.main').height()){
     		$('.ff').css({'z-index':-2});
     		$('.main04').css({'z-index':-1});
     	}
